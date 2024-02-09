@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/LOGO.png" type="image/x-icon">
+    <title>MEMOLI ODONTOLOGIA</title>
+</head>
+<body>
+    
+    <header id="home">
+
+        <div class="menu">
+
+            <div class="logo"></div>
+
+            <nav class="desktop_menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#service">Serviços</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <nav class="mobile-menu">
+            <ion-icon name="menu-outline"></ion-icon>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="service">Serviços</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="contact">
+            <div class="box">
+                <h1>Entre em Contato</h1>
+                <p>(11) 2231-4114</p>
+            </div>
+            <div class="box">
+                <h1>Atendimento</h1>
+                <p>Segunda a Sexta</p>
+            </div>
+            <div class="box">
+                <h1>Marque Sua Consulta</h1>
+                <p>É Gratis</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="chamada1">
+                <h3>MEMOLI ODONTOLOGIA</h3>
+                <p>Sorrisos que brilham, cuidados que inspiram!</p>
+                <button>Saiba Mais</button>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="service">
+
+            <div class="container">
+
+                <div class="title">
+                    <h1>Nossos Serviços</h1>
+                    <p>Sorrisos que brilham, cuidados que inspiram!</p>
+                </div>
+
+                <div class="text">
+                    <h1>Nossa equipe é totalmente qualificada</h1>
+                    <p>Nossa equipe odontológica altamente qualificada está comprometida em fornecer o mais alto padrão de cuidados dentários. 
+                        Com tecnologia de ponta e atendimento personalizado, estamos aqui para você em cada passo do caminho. 
+                        Confie em nós para transformar seu sorriso e sua confiança!</p>
+                </div>
+
+                <div class="call">
+
+                    <div class="box">
+                        <img src="imagens/Modern_Monoline_Technology_Logo__4_-removebg-preview.png" alt="">
+                        <h2>Implantes</h2>
+                        <button>Saiba Mais</button>
+                    </div>
+
+                    <div class="box">
+                        <img src="imagens/Modern_Monoline_Technology_Logo__5_-removebg-preview.png" alt="">
+                        <h2>Clareamento</h2>
+                        <button>Saiba Mais</button>
+                    </div>
+
+                    <div class="box">
+                        <img src="imagens/Modern_Monoline_Technology_Logo__6_-removebg-preview.png" alt="">
+                        <h2>Enxerto</h2>
+                        <button>Saiba Mais</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="about">
+
+            <div class="container">
+
+                    <div class="title">
+                        <h1>Sobre Nós</h1>
+                        <p>Sorrisos que brilham, cuidados que inspiram!</p>
+                    </div>
+
+                    <div class="content">
+
+                        <div class="left">
+                            <p>Nossa paixão é cuidar dos sorrisos de nossos pacientes. 
+                                Com uma equipe dedicada de profissionais experientes e tecnologia de ponta, 
+                                estamos comprometidos em fornecer o mais alto padrão de cuidados odontológicos. 
+                                Desde procedimentos de rotina até tratamentos especializados, estamos aqui para você em cada etapa do caminho, 
+                                proporcionando um sorriso saudável e confiante que você merece. Sua saúde bucal é nossa prioridade, 
+                                e estamos ansiosos para recebê-lo em nossa clínica.</p>
+                        </div>
+
+                        <div class="right">
+
+                            <div class="box">
+                                <img src="imagens/Modern_Monoline_Technology_Logo__7_-removebg-preview.png" alt="">
+                                <h1>Nossa Visão</h1>
+                                <p>Na Memoli Odontologia, nossa visão é ser referência em cuidados odontológicos de excelência, 
+                                    promovendo sorrisos saudáveis e confiantes em nossa comunidade.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact">
+
+            <div class="container">
+                
+                <div class="title">
+                    <h1>Contato</h1>
+                    <p>Sorrisos que brilham, cuidados que inspiram!</p>
+                </div>
+
+                <div class="content">
+                    <div class="left">
+                        <form id="consultaForm">
+                            <h1>Agende Sua Consulta</h1>
+                            <input type="text" name="nome" id="nome" placeholder="* Nome" required>
+                            <input type="email" name="email" id="email" placeholder="* Email" required>
+                            <h2>Marque Sua Consulta Agora</h2>
+                            <input type="date" name="data_consulta" id="data_consulta" required>
+                    
+                            <!-- Dropdown para seleção de horário -->
+                            <select name="horario" id="horario" required>
+                                <option value="">Selecione o Horário</option>
+                                <option value="9:00">9:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                            </select>
+                    
+                            <input type="submit" value="Marcar Consulta">
+                        </form>
+                    </div>
+
+                    <div class="right">
+
+                        <h1>Entre em Contato</h1>
+
+                        <div class="box">
+                            <h2>odontologiamemoli@gmail.com</h2>
+                        </div>
+
+                        <div class="box">
+                            <h2>+55 11 2231-4114</h2>
+                        </div>
+
+                        <div class="box">
+                            <h2>São Paulo, Brazil</h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="box">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <p>+55 11 98216-2254 </p>
+                <ion-icon name="call-outline"></ion-icon>
+                <p>+55 11 2231-4114</p>
+            </div>
+
+            <div class="box">
+                <img src="imagens/LOGO.png" alt="">
+            </div>
+
+            <div class="box">
+                <p>Siga-nos</p>
+                <a href="https://www.instagram.com/memoliodontogia?igsh=MXZpY3FuZXprY211bg%3D%3D&utm_source=qr" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.facebook.com/clinicaodontologicamemoli?mibextid=fVIIUt" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            </div>
+
+        </div>
+
+        <div class="whatsapp-icon">
+            <a href="https://api.whatsapp.com/send?phone=5511982162254" target="_blank">
+                <img src="imagens/whatsapp-removebg-preview.png" alt="WhatsApp" 
+                style="width: 100px; height: auto; z-index: 1000; position: fixed; right: 20px; bottom: 20px;">
+            </a>
+        </div>
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        document.getElementById("consultaForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            
+            const nome = document.getElementById("nome").value;
+            const email = document.getElementById("email").value;
+            const dataConsulta = document.getElementById("data_consulta").value;
+            const horario = document.getElementById("horario").value;
+
+            const corpoEmail = `Nome: ${nome}\nEmail: ${email}\nData da Consulta: ${dataConsulta}\nHorário: ${horario}`;
+
+            fetch("https://smtpjs.com/v3/smtpjs.aspx?from=youremail@gmail.com&to=odontologiamemoli@gmail.com&subject=Consulta Agendada&body=" + corpoEmail)
+            .then(function(response) {
+                if (response.ok) {
+                    alert("Email enviado com sucesso!");
+                } else {
+                    alert("Erro ao enviar email. Por favor, tente novamente.");
+                }
+            })
+            .catch(function(error) {
+                console.log("Erro:", error);
+                alert("Erro ao enviar email. Por favor, tente novamente.");
+            });
+        });
+    </script>
+
+</body>
+</html>
