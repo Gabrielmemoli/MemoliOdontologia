@@ -569,9 +569,14 @@ footer .container .box p {
         text-align: center;
     }
 
+    #service .container .title p {
+        margin-bottom: 20px;
+    }
+
     #service .container .text {
         max-width: none;
         text-align: center;
+        display: none;
     }
 
     #about {
@@ -585,6 +590,7 @@ footer .container .box p {
 
     #about .container .title {
         background-color: white;
+        display: none;
     }
 
     #about .container .content .left {
@@ -719,7 +725,7 @@ footer .container .box p {
 
     #service .container .call {
         flex-direction: column;
-        margin-top: 200px;
+        margin-top: 90px;
     }
 
     #service .container .call .box {
