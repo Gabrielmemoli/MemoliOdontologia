@@ -569,14 +569,17 @@ footer .container .box p {
         text-align: center;
     }
 
-    #service .container .title p {
-        margin-bottom: 20px;
-    }
-
     #service .container .text {
         max-width: none;
         text-align: center;
+    }
+
+    #service .container .text h1 {
         display: none;
+    }
+
+    #service .container .text p {
+        color: white;
     }
 
     #about {
