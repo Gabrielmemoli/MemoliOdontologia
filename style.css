@@ -55,10 +55,10 @@ nav.mobile-menu {
 nav.mobile-menu ion-icon {
     cursor: pointer;
     display: none;
-    color: #48186d;
-    font-size: 1.5rem;
+    color: #0f5c9e;
+    font-size: 1.8rem;
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 40px;
 }
 
@@ -71,7 +71,7 @@ nav.mobile-menu:hover ul{
 nav.mobile-menu ul {
     opacity: 0;
     transition: 1s;
-    background: #48186d;
+    background: #0f5c9e;
     position: absolute;
     width: 100%;
     left: 0;
@@ -86,7 +86,7 @@ nav.mobile-menu ul li {
 }
 
 nav.mobile-menu ul li:hover {
-    background: #dc3daa;
+    background: #192123;
 }
 
 nav.mobile-menu ul li a {
@@ -422,7 +422,7 @@ header .chamada1 button:hover {
 #contact .container .content .left form {
     width: 85%;
     height: 60vh;
-    background: rgba(222, 222, 222, 0.651);
+    background: rgba(255, 255, 255, 0.651);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -531,7 +531,7 @@ footer .container .box p {
     font-weight: 600;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 940px) {
     header {
         background: url(imagens/responsivo.png) no-repeat;
         background-position: center;
@@ -541,6 +541,13 @@ footer .container .box p {
         justify-content: center;
     }
 
+    #home .contact .box h1 {
+        font-size: 11px;
+    }
+
+    #home .contact .box p {
+        font-size: 11px;
+    }
     header .chamada1 h3 {
         font-size: 3rem;
     }
@@ -553,27 +560,49 @@ footer .container .box p {
         font-size: 0.9rem;
     }
 
+    #service {
+        background: white;
+    }
+
+    #service .container .title {
+        max-width: none;
+        text-align: center;
+    }
+
     #service .container .text {
         max-width: none;
         text-align: center;
     }
 
+    #about {
+        background: #051d31;
+    }
+
     #about .container .content {
         flex-direction: column;
+        background-color: #051d31;
+    }
+
+    #about .container .title {
+        background-color: white;
     }
 
     #about .container .content .left {
         width: 100%;
-        margin-top: 60px;
+        margin-top: 200px;
+        font-size: 1rem;
     }
 
     #about .container .content .left p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        color: white;
     }
 
     #about .container .content .right {
         width: 100%;
         margin-top: 120px;
+        display: none;
     }
 
     #about .container .content .right .box {
@@ -598,6 +627,10 @@ footer .container .box p {
         align-items: center;
     }
 
+    #contact .container .title p{
+        margin-left: 45px;
+    }
+
     #contact .container .content .left {
         width: 80%;
     }
@@ -616,11 +649,13 @@ footer .container .box p {
     #contact .container .content .right {
         height: 5vh;
         position: relative;
-        top: -100px;
+        top: -30px;
+        justify-content: center;
+        align-items: center;
     }
 
     #contact .container .content .right h1 {
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin-top: 20px;
     }
 
@@ -636,7 +671,12 @@ footer .container .box p {
     #contact .container .content .left form select {
         margin-top: 15px;
     }
+
+    footer .container .box p {
+        font-size: 0.7rem;
+    }
 }
+
 
 @media screen and (max-width: 680px) {
     header nav.desktop_menu {
